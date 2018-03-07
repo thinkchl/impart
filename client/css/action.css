@@ -1,0 +1,39 @@
+
+.content{
+	margin-top: 0.1rem;
+	display: inline !important;
+}
+@media (min-width: 320px) {
+	.content .active a{
+		line-height: 0.15rem;
+		width: 1.6rem;
+		position: relative;
+		right: 0.33rem
+	}
+}
+.action-list{
+	border: 0.01rem solid #e5e5e5;
+	padding: 0;
+}
+.breadcrumb>li+li:before{
+	content: ">";
+}
+.breadcrumb{
+	background-color: white;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+.action-list-body h3{
+	color: blue;
+	font-size: 0.15rem;
+	margin: 0.08rem 0; 
+}
+.action-list-body p{
+	margin-bottom: 0.15rem;
+}
+.action-list-body > div >div{
+	padding: 0 0.15rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+nav{
+	text-align: center;
+}

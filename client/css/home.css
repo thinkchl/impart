@@ -1,0 +1,72 @@
+.navbar-header{
+    margin-right: 0.2rem;
+}
+.news,.company,.action{
+    margin:0 4%;
+}
+.content{
+    margin: 0 0.2rem;
+    display: table !important;
+}
+.content .news{
+    margin-top: 0.1rem;
+}
+.nav-btn{
+    margin-right: 0.8rem;
+}
+.home-title{
+    color: gray;
+    font-size: 0.2rem;
+    margin:0.2rem 0;
+}
+.news-content span{
+    font-size: 0.16rem;
+}
+.news-content p{
+    font-size: 0.1rem;
+    line-height: 0.20rem;
+}
+.content .news .row{
+    margin-top: 0.05rem;
+}
+.news-list{
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.company img{
+    border: 0.03rem solid #e5e5e5;
+    width:0.8rem;
+}
+.company .row{
+    margin-top: 0.1rem;
+}
+.action-left-father{
+    background: gray;
+    max-width: 640px;
+}
+.action-left-top-img{
+    width: 100%;
+}
+.action .row > div{
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+.test{
+    position: relative;
+}
+.ttt{
+    width: 100%;
+    margin-top: 24%;
+    position: absolute;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.action-right-top{
+    margin: 0 0 0.04rem 0.02rem;
+    background: url(../../images/bng2.png) no-repeat 30%;
+    background-size: cover;
+}
+.action-right-bottom{
+    margin: 0.04rem 0.04rem 0;
+}
